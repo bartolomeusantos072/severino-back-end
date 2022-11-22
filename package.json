@@ -1,0 +1,25 @@
+{
+  "name": "severino-back-end",
+  "version": "1.0.0",
+  "description": "Essa é uma API onde prestadores de serviço(famosos quebra-galho) se cadastram para anunciar seus serviços e os usuarios podem buscar e solicitar por eles ou ate mesmo se torna um prestador de serviço",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/server.ts",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uenderss/severino-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uenderss/severino-back-end/issues"
+  },
+  "homepage": "https://github.com/Uenderss/severino-back-end#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1",
+    "standard": "^17.0.0"
+  }
+}
